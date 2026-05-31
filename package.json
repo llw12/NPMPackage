@@ -1,0 +1,17 @@
+{
+  "name": "@MatureLeek/calculator",
+  "version": "1.0.0",
+  "description": "A private npm package for parsing and calculating arithmetic formulas with variables.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "node test/calculator.test.js"
+  },
+  "keywords": [
+    "calculator",
+    "formula",
+    "parser"
+  ],
+  "author": "codex",
+  "license": "UNLICENSED"
+}
