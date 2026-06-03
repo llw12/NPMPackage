@@ -16,8 +16,6 @@
 
 ## 安装方式
 
-这是一个私有本地包，不需要发布到 npm registry。
-
 如果另一个项目需要引用它，可以在那个项目的 `package.json` 中使用本地路径依赖：
 
 ```json
@@ -202,15 +200,3 @@ NPMPackage/
 └── test/
     └── calculator.test.js
 ```
-
-## 注意事项
-
-该包当前是私有包：
-
-```json
-{
-  "private": true
-}
-```
-
-如果后续需要发布到 npm，需要先移除或修改 `private` 字段，并补充发布相关配置。
